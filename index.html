@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Review</title>
+
+	<style type="text/css">
+
+		* {
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+
+		html {
+			font-family: sans-serif;
+			scroll-behavior: smooth;
+		}
+
+		.container {
+			width: 100%;
+			min-height: 100vh;
+
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			gap: 1rem;
+		}
+
+		button{
+			all: unset;
+			cursor: pointer;
+			font-size: 1.4em;
+			font-weight: bold;
+			background-color: #81cae8;
+			padding: 0.8rem 1rem;
+			border-radius: 10px;
+
+			transition: all 0.3s ease;
+			user-select: none;
+		}
+
+		button:hover {
+			background-color: #81cae880;
+		}
+
+		button:active {
+			background-color: #53bbe6;
+		}
+	</style>
+
+</head>
+<body>
+		<form
+		  action="https://formspree.io/f/mpzgwkyw"
+		  method="POST"
+		  class="container"
+		>
+		<h1>Worst system I've ever seen !</h1>
+		    <input type="text" name="answer" value="yes" hidden>
+		  	<button type="submit">Vote 👎</button>
+		</form>
+</body>
+</html>
